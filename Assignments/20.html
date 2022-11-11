@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>JavaScript Assignment</title>
+</head>
+
+<body>
+    <h1>Q20.  Mountains </h1>
+    <p>Mountains I have in my list</p>
+    <p id="mountains"></p>
+    
+    <script> 
+
+const mounts = ["K2", "Mount Everest", "Himalyas"];
+        let mountsLen = mounts.length;
+        
+        let text = "<ul>";
+        for (let i = 0; i < mountsLen; i++){
+            text += "<li>" + mounts[i] + "</li>";
+            
+        }
+  text +="</ul>";
+        document.getElementById("mountains").innerHTML = text;
+    </script>
+    </body>
+</html>

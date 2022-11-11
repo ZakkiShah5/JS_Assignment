@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>JavaScript Assignment</title>
+</head>
+
+<body>
+    <h1>Q43</h1>
+    <script> 
+    const magicians = ['Alex', 'Sara', 'Marie'];
+function show_magicions(copy_magicians) {
+    console.log(copy_magicians);
+  }
+  
+  const copy_magicians =Array.from(magicians);
+
+
+function  make_great(a) {
+    for(let a in magicians){
+     
+    console.log(magicians[a] +" The Great");
+     
+   }
+  } 
+ show_magicions(magicians.forEach(show_magicions));
+
+console.log("\nGreat magicians:");
+show_magicions(make_great());
+
+console.log("\nOriginal magicians:");
+ show_magicions(magicians.forEach(show_magicions));
+    </script>
+    </body>
+</html>

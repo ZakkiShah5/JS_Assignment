@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>JavaScript Assignment</title>
+</head>
+
+<body>
+    <h1>Q17. Shrink Guest </h1>
+    <script>
+        const celebrities = ["Nawaz Sharif", "Bela Hasid", "Iran Khan", "Captain Price", "Lara Croft"];
+
+
+
+        console.log("Dear " + celebrities[0] + ", I've arrannged a lil party at my place, come if got some time ")
+
+        console.log("Dear " + celebrities[1] + ", I've arrannged a lil party at my place, come if got some time ")
+        console.log("Dear " + celebrities[3] + ", I've arrannged a lil party at my place, come if got some time ")
+//end
+        celebrities.push("Babar Azam");
+        console.log("Dear " + celebrities[5] + ", as you havee quualified for the semi final so I've arranged it specially for you")
+     //middle
+        celebrities.splice(2, 0, "Rohit sharma");
+        console.log(celebrities.join());
+        console.log("Dear " + celebrities[2] + ", as you havee quualified for the semi final so I've arranged it specially for you")
+        console.log(celebrities.join());
+        //start
+        celebrities.splice(0, 0, "Kane Williamson");
+        console.log("Dear " + celebrities[0] + ", as you havee quualified for the semi final so I've arranged it specially for you")
+        console.log(celebrities.join());
+    </script>
+</body></html>
